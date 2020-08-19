@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-image: url('../images/bg-desktop.svg') ;
+    background-size: contain;
+    background-color: hsl(257, 40%, 49%);
+    min-height: 1440px;
+    color:#eee;
+    overflow: hidden;
+    font-family: 'Roboto';
+}
+header{
+    padding: 5% 0 5% 5%;
+}
+main{
+    margin: 0 auto;
+    padding-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 20%;
+}
+
+section img{
+    width: 120%;
+}
+
+h1{
+    width: 80%;
+    font-size: 35px;
+    font-family: 'Alata';
+}
+
+p{
+    letter-spacing: 1.75px;
+}
+aside{
+    text-align: left;
+    width: 29%;
+    height: 50%;
+    padding-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+aside a{
+    background-color: #eee;
+    color: hsl(257, 40%, 49%);
+    padding: 15px 70px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+aside a:hover{
+    box-shadow:  3px 5px #012331;
+    background-color:#424647 ;
+    color: #9B4ECA;
+}
+footer{
+    display: flex;
+    margin-left: 70%;
+}
+footer ul{
+    display: flex;
+}
+footer li{
+    padding: 0 30px;
+    list-style: none;
+}
+.social{
+    font-size: 30px;
+    color: #eee;
+    text-decoration: none;
+}
+.social:hover{
+    color: #9B4ECA;
+    text-decoration: none;
+
+}
